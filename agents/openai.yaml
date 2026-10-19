@@ -1,0 +1,13 @@
+interface:
+  display_name: 교사 웹 발표자료 제작
+  short_description: 사진과 원고로 에듀테크 코리아 스타일의 웹 발표자료를 제작합니다
+  default_prompt: $build-korean-web-deck 스킬로 첨부한 원고와 사진을 웹 발표자료로 만들어줘.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
